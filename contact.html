@@ -13,13 +13,55 @@
     <body>
         <nav class="navigation">
             <div class="flex-container">
-                <a href="/cv.html">curriculum vitae</a>
-                <a href="/ervaring.html">ervaring</a>
-                <a href="/hobby.html">hobby's</a>
-                <a href="/contact.html">contact</a>
+                <a href="index.html">Home</a>
+                <a href="/cv.html">Curriculum vitae</a>
+                <a href="/ervaring.html">Ervaring</a>
+                <a href="/hobby.html">Hobby's</a>   
             </div>
         </nav>
+        <section class="info">
+            <h1>Contact</h1>
+            <p>Wenst u persoonlijke contact met mij op te nemen kunt u de onderstaande contact formulier invullen.</p>
+            <p>Ik probeer altijd zo snel mogelijk te reageren op uw contact aan zoek.</p>
+            <p>Alvast bedankt voor het contact op zoeken!</p>
+        </section>
+        <section class="info2">
+            <form action="https://formspree.io/f/xldpzpjy" method="POST">
+                <div>
+                    <label for="naam">Naam:
+                        <input type="text" name="naam" id="naam" required>
+                    </label>
+                </div>
 
+                <div>
+                    <label for="mail">E-Mail:
+                        <input type="text" name="mail" id="mail" required>
+                    </label>
+                </div>
+                <div>
+                    <label for="html">Onderwerp:
+                        <select name="onderwerp" id="onderwerp">
+                            <option></option>
+                            <option value="programmeren">programmeren</option>
+                            <option value="school">school</option>
+                            <option value="werk">werk</option>
+                            <option value="solicitatie">Solicitatie</option>
+                        </select>
+                    </label>
+                </div>
+                <div> 
+                    <label for="reactie">Beschrijving</label> 
+                </div>
+                <div>
+                    <textarea name="reactie" id="reactie" cols="40" rows="5"></textarea>
+                </div>
+                <div>
+                    <label for="verzenden">
+                        <input type="submit" value="Verzenden" id="verzenden" name="verzenden">
+                    </label>
+                </div>
+            </form>
+        </section>
         
     <footer>
         <div class="footer">
@@ -31,10 +73,10 @@
             </div>
             <div class="row">
                 <ul>
-                    <li><a href="/cv.html"></a>Curriculum vitae</li>
-                    <li><a href="/ervaring.html"></a>Ervaring</li>
-                    <li><a href="/hobby.html"></a>Hobby's</li>
-                    <li><a href="/contact.html"></a>Contact</li>
+                    <li><a href="/cv.html">Curriculum vitae</a></li>
+                    <li><a href="/ervaring.html">Ervaring</a></li>
+                    <li><a href="/hobby.html">Hobby's</a></li>
+                    <li><a href="index.html">Home</a></li>
                 </ul>
             </div>
             <div class="row">
